@@ -11,7 +11,7 @@ for index in range(nochargingStations):
         print("Please input a valid kw rating")
         kwrating = int(input("Enter kw rating"))
     if kwrating == 7:
-        pricePerMile = 3
+        pricePerMile = 0
     elif kwrating == 22:
         pricePerMile = 0.005
     else:
